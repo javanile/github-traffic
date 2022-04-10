@@ -15,7 +15,7 @@ main () {
   #rm -f repositories.list > /dev/null 2>&1
   #for page in {1..2}; do
   #  curl -s "https://api.github.com/users/${user}/repos?page=${page}&per_page=2" | grep '"full_name":' | cut -d'"' -f4 >> repositories.list
-  #done
+  #done  jjhj
 
   ## Repositories classifier
   if [ -s repositories.list ]; then
