@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+set -e
+
+[ -f .env ] && source .env
+
+token=${GITHUB_TOKEN}
 
 main () {
   user=$(git config --get remote.origin.url | cut -d: -f2 | cut -d/ -f4)
@@ -7,16 +12,19 @@ main () {
   echo "![Last Update](https://img.shields.io/badge/Last%20Update-$(date -u +%Y--%m--%d%%20%H%%3A%M%%3A%S)%20UTC-blue)" >> README.md
 
   ## Get the list of repositories
-  rm -f etc/repositories.list > /dev/null 2>&1
-  for page in {1..5}; do
-    curl -s "https://api.github.com/users/${user}/repos?page=${page}&per_page=2" | grep '"full_name":' | cut -d'"' -f4 >> repositories.list
-  done
+  #rm -f repositories.list > /dev/null 2>&1
+  #for page in {1..5}; do
+  #  curl -s "https://api.github.com/users/${user}/repos?page=${page}&per_page=2" | grep '"full_name":' | cut -d'"' -f4 >> repositories.list
+  #done
 
   ## Repositories classifier
   if [ -s repositories.list ]; then
     while IFS="" read -r repository || [ -n "$repository" ]; do
-      badges=
-
+      sources=$(curl -s -u "$user:$token" "https://api.github.com/repos/${repository}/traffic/popular/referrers")
+      traffic=$(echo "${sources}" | grep '"count"' | sed 's/[^0-9]*//g')
+      source_number=$(echo "$traffic" | wc -l | xargs)
+      echo "$traffic" | paste -s -d+ - | bc
+      echo "$repository $source_number"
     done < repositories.list
   fi
 }
