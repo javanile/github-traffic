@@ -50,7 +50,7 @@ main () {
       views=$(echo "$entry" | cut -d' ' -f2)
       uniques=$(echo "$entry" | cut -d' ' -f3)
       sources=$(echo "$entry" | cut -d' ' -f4)
-      echo "| $rank | $repository | $views | $uniques | $sources |" >> README.md
+      echo "| $rank | [$repository](https://github.com/$repository) | $views | $uniques | $sources |" >> README.md
       rank=$((rank+1))
     done < repositories.2
   fi
