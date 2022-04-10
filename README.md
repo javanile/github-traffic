@@ -2,7 +2,7 @@
 ![Last Update](https://img.shields.io/badge/Last%20Update-2022--04--10%2021%3A02%3A24%20UTC-blue)
 
 | Rank | Repository | Views | Uniques | Sources |
-|:----:| ---------- |:-----:|:-------:|:-------:|
+|:----:|:----------:|:-----:|:-------:|:-------:|
 | 1 | javanile/vtiger | 234 | 90 | 8 |
 | 2 | javanile/vtiger-demo | 96 | 56 | 5 |
 | 3 | javanile/yamlinc | 75 | 49 | 10 |
