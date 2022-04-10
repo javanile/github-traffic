@@ -14,8 +14,10 @@ main () {
   user=$(git config --get remote.origin.url | cut -d: -f2 | cut -d/ -f4)
 
   echo "# ${user} (traffic)" > README.md
+  echo "[![Traffic Update](https://github.com/javanile/github-traffic/actions/workflows/update.yml/badge.svg)](https://github.com/javanile/github-traffic/actions/workflows/update.yml)" >> README.md
   echo "![Last Update](https://img.shields.io/badge/Last%20Update-$(date -u +%Y--%m--%d%%20%H%%3A%M%%3A%S)%20UTC-blue)" >> README.md
-
+  echo "This project collects all data of incoming traffic to our organization  "
+  echo ""
   ## Get the list of repositories
   echo "Fetch repositories list"
   rm -f repositories.0 > /dev/null 2>&1
@@ -41,9 +43,8 @@ main () {
 
   if [ -s repositories.2 ]; then
     echo "Generating README.md file"
-    echo '' >> README.md
     echo '| Rank | Repository | Views | Uniques | Sources |' >> README.md
-    echo '| ---- | ---------- | ----- | ------- | ------- |' >> README.md
+    echo '|:----:|------------|:-----:|:-------:|:-------:|' >> README.md
     rank=1
     while IFS="" read -r entry || [ -n "$entry" ]; do
       repository=$(echo "$entry" | cut -d' ' -f1)
@@ -54,6 +55,9 @@ main () {
       rank=$((rank+1))
     done < repositories.2
   fi
+
+  echo "## License" >> README.md
+  echo "The MIT License (MIT). Please see [License File](LICENSE) for more information." >> README.md
 }
 
 main
