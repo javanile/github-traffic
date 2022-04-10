@@ -1,2 +1,55 @@
 # javanile (traffic)
-![Last Update](https://img.shields.io/badge/Last%20Update-2022--04--10%2015%3A12%3A54%20UTC-blue)
+![Last Update](https://img.shields.io/badge/Last%20Update-2022--04--10%2020%3A03%3A15%20UTC-blue)
+
+| Repository | Views | Uniques | Sources |
+| ---------- | ----- | ------- | ------- |
+| javanile/fixedsys-css | 66 | 27 | 5 |
+| javanile/bpkg-status | 32 | 4 | 1 |
+| javanile/bpkg.javanile.org | 26 | 3 | 2 |
+| javanile/binst.tk | 16 | 3 | 1 |
+| javanile/gitcut | 10 | 3 | 1 |
+| javanile/crisp | 8 | 2 | 1 |
+| javanile/cuba | 7 | 1 | 1 |
+| javanile/github-showcase | 7 | 1 | 1 |
+| javanile/dist.sh | 6 | 4 | 3 |
+| javanile/boor | 4 | 2 | 2 |
+| javanile/bash-package | 3 | 1 | 1 |
+| javanile/dotenv | 3 | 1 | 1 |
+| javanile/adminer | 2 | 2 | 2 |
+| javanile/git-dc | 2 | 2 | 2 |
+| javanile/bpkg-docker | 2 | 1 | 1 |
+| javanile/centralio | 1 | 1 | 1 |
+| javanile/ghostplay | 1 | 1 | 1 |
+| javanile/async-kit | 0 | 0 | 0 |
+| javanile/awesome-json-server | 0 | 0 | 0 |
+| javanile/awesome-webrequest | 0 | 0 | 0 |
+| javanile/bash-ci | 0 | 0 | 0 |
+| javanile/behat | 0 | 0 | 0 |
+| javanile/blog.lcov.sh | 0 | 0 | 0 |
+| javanile/bootstrap-wizard | 0 | 0 | 0 |
+| javanile/bpkg-ci | 0 | 0 | 0 |
+| javanile/bump.sh | 0 | 0 | 0 |
+| javanile/certbot | 0 | 0 | 0 |
+| javanile/ci-status | 0 | 0 | 0 |
+| javanile/ci.lcov.sh | 0 | 0 | 0 |
+| javanile/cliz | 0 | 0 | 0 |
+| javanile/composer | 0 | 0 | 0 |
+| javanile/contributing | 0 | 0 | 0 |
+| javanile/cron-expression | 0 | 0 | 0 |
+| javanile/cronicle-client | 0 | 0 | 0 |
+| javanile/define | 0 | 0 | 0 |
+| javanile/docker-ci | 0 | 0 | 0 |
+| javanile/docker-compose-job | 0 | 0 | 0 |
+| javanile/docker-hooks | 0 | 0 | 0 |
+| javanile/docker-samba-ad-dc | 0 | 0 | 0 |
+| javanile/docs.javanile.org | 0 | 0 | 0 |
+| javanile/editorconfig | 0 | 0 | 0 |
+| javanile/email-test | 0 | 0 | 0 |
+| javanile/eventy | 0 | 0 | 0 |
+| javanile/fake-ssh-server | 0 | 0 | 0 |
+| javanile/fork.sh | 0 | 0 | 0 |
+| javanile/forkfile | 0 | 0 | 0 |
+| javanile/git-auto-commit-action | 0 | 0 | 0 |
+| javanile/gitcat | 0 | 0 | 0 |
+| javanile/github-spreadsheet | 0 | 0 | 0 |
+| javanile/github-traffic | 0 | 0 | 0 |

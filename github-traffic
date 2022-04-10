@@ -12,23 +12,36 @@ main () {
   echo "![Last Update](https://img.shields.io/badge/Last%20Update-$(date -u +%Y--%m--%d%%20%H%%3A%M%%3A%S)%20UTC-blue)" >> README.md
 
   ## Get the list of repositories
-  #rm -f repositories.list > /dev/null 2>&1
-  #for page in {1..2}; do
-  #  curl -s "https://api.github.com/users/${user}/repos?page=${page}&per_page=2" | grep '"full_name":' | cut -d'"' -f4 >> repositories.list
-  #done  jjhj
+  rm -f repositories.0 > /dev/null 2>&1
+  for page in {1..5}; do
+    curl -s "https://api.github.com/users/${user}/repos?page=${page}&per_page=10" | grep '"full_name":' | cut -d'"' -f4 >> repositories.0
+  done
 
   ## Repositories classifier
-  if [ -s repositories.list ]; then
+  rm -f repositories.1 > /dev/null 2>&1
+  if [ -s repositories.0 ]; then
     while IFS="" read -r repository || [ -n "$repository" ]; do
       traffic=$(curl -s -u "$user:$token" "https://api.github.com/repos/${repository}/traffic/popular/referrers")
-      echo "$traffic"
-      uniques=$(echo "\"uniques\": 0 ${traffic}" | grep '"uniques"' | sed 's/[^0-9]*//g' | paste -s -d+ - | bc)
-      echo "$uniques"
-      sources=$(echo "${traffic}" | grep '"count"' | sed 's/[^0-9]*//g')
-      sources_number=$(echo "$sources" | wc -l | xargs)
-      total=$(echo "$sources" | paste -s -d+ - | bc)
-      echo "$repository $total $uniques $sources_number"
-    done < repositories.list
+      uniques=$(echo '"uniques":0' "${traffic}" | grep '"uniques"' | sed 's/[^0-9]*//g' | paste -s -d+ - | bc)
+      views=$(echo '"count":0' "${traffic}" | grep '"count"' | sed 's/[^0-9]*//g' | paste -s -d+ - | bc)
+      sources=$(echo "$traffic" | grep '"count"' | wc -l | xargs)
+      echo "$repository $views $uniques $sources" >> repositories.1
+    done < repositories.0
+  fi
+
+  sort -t' ' -k2nr -k3nr -k4nr repositories.1 > repositories.2
+
+  if [ -s repositories.2 ]; then
+    echo '' >> README.md
+    echo '| Repository | Views | Uniques | Sources |' >> README.md
+    echo '| ---------- | ----- | ------- | ------- |' >> README.md
+    while IFS="" read -r entry || [ -n "$entry" ]; do
+      repository=$(echo "$entry" | cut -d' ' -f1)
+      views=$(echo "$entry" | cut -d' ' -f2)
+      uniques=$(echo "$entry" | cut -d' ' -f3)
+      sources=$(echo "$entry" | cut -d' ' -f4)
+      echo "| $repository | $views | $uniques | $sources |" >> README.md
+    done < repositories.2
   fi
 }
 
