@@ -3,9 +3,9 @@ set -e
 
 [ -f .env ] && source .env
 
-token=${GITHUB_TOKEN}
+curl_user=${CURL_USER}
 
-if [ -z "$token" ]; then
+if [ -z "$curl_user" ]; then
   echo "Missing token"
   exit 1
 fi
@@ -28,7 +28,7 @@ main () {
   rm -f repositories.1 > /dev/null 2>&1
   if [ -s repositories.0 ]; then
     while IFS="" read -r repository || [ -n "$repository" ]; do
-      traffic=$(curl -s -u "javanile:$token" "https://api.github.com/repos/${repository}/traffic/popular/referrers")
+      traffic=$(curl -s -u "$curl_user" "https://api.github.com/repos/${repository}/traffic/popular/referrers")
       uniques=$(echo '"uniques":0' "${traffic}" | grep '"uniques"' | sed 's/[^0-9]*//g' | paste -s -d+ - | bc)
       views=$(echo '"count":0' "${traffic}" | grep '"count"' | sed 's/[^0-9]*//g' | paste -s -d+ - | bc)
       sources=$(echo "$traffic" | grep '"count"' | wc -l | xargs)

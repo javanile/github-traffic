@@ -17,8 +17,8 @@ jobs:
       - name: 'Checkout Traffic'
         uses: actions/checkout@v2
       - name: 'Update Traffic'
-        run: make update
+        run: bash github-traffic
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          CURL_USER: ${{ secrets.CURL_USER }}
       - name: 'Commit Changes'
         uses: stefanzweifel/git-auto-commit-action@v4
