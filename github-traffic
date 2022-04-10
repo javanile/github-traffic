@@ -5,6 +5,11 @@ set -e
 
 token=${GITHUB_TOKEN}
 
+if [ -z "$token" ]; then
+  echo "Missing token"
+  exit 1
+fi
+
 main () {
   user=$(git config --get remote.origin.url | cut -d: -f2 | cut -d/ -f4)
 
