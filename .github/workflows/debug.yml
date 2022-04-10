@@ -8,6 +8,6 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - run: curl -s -u javanile:$GITHUB_TOKEN https://api.github.com/repos/javanile/vtiger/traffic/popular/referrers
+      - run: 'curl -s -H "Authorization: Bearer $GITHUB_TOKEN" https://api.github.com/repos/javanile/vtiger/traffic/popular/referrers'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
