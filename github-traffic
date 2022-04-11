@@ -13,11 +13,12 @@ fi
 main () {
   user=$(git config --get remote.origin.url | cut -d: -f2 | cut -d/ -f4)
 
+  cp README.md README.md.0
   echo "# ${user} (traffic)" > README.md
   echo "[![Traffic Update](https://github.com/javanile/github-traffic/actions/workflows/update.yml/badge.svg)](https://github.com/javanile/github-traffic/actions/workflows/update.yml)" >> README.md
   echo "![Last Update](https://img.shields.io/badge/Last%20Update-$(date -u +%Y--%m--%d%%20%H%%3A%M%%3A%S)%20UTC-blue)" >> README.md
   echo "This project collects all data of incoming traffic to our organization  " >> README.md
-  echo ""
+  echo "" >> README.md
   ## Get the list of repositories
   echo "Fetch repositories list"
   rm -f repositories.0 > /dev/null 2>&1
@@ -34,7 +35,7 @@ main () {
       uniques=$(echo '"uniques":0' "${traffic}" | grep '"uniques"' | sed 's/[^0-9]*//g' | paste -s -d+ - | bc)
       views=$(echo '"count":0' "${traffic}" | grep '"count"' | sed 's/[^0-9]*//g' | paste -s -d+ - | bc)
       sources=$(echo "$traffic" | grep '"count"' | wc -l | xargs)
-      echo "$repository $views $uniques $sources" >> repositories.1
+      echo "$repository $uniques $views $sources" >> repositories.1
     done < repositories.0
   fi
 
@@ -45,15 +46,24 @@ main () {
 
   if [ -s repositories.2 ]; then
     echo "Generating README.md file"
-    echo '| Rank | Repository | Views | Uniques | Sources |' >> README.md
-    echo '|:----:|------------|:-----:|:-------:|:-------:|' >> README.md
+    echo '| Rank | Repository | Uniques | Views | Sources | Trend |' >> README.md
+    echo '|:----:|------------|:-----:|:-------:|:-------:|:-----:|' >> README.md
     rank=1
     while IFS="" read -r entry || [ -n "$entry" ]; do
       repository=$(echo "$entry" | cut -d' ' -f1)
-      views=$(echo "$entry" | cut -d' ' -f2)
-      uniques=$(echo "$entry" | cut -d' ' -f3)
+      uniques=$(echo "$entry" | cut -d' ' -f2)
+      views=$(echo "$entry" | cut -d' ' -f3)
       sources=$(echo "$entry" | cut -d' ' -f4)
-      echo "| $rank | [$repository](https://github.com/$repository) | $views | $uniques | $sources |" >> README.md
+      last_rank=$(grep "$repository" README.md.0 | head -1 | cut -d'|' -f2 | xargs)
+
+      trend=""
+      if [ "$rank" -lt "$last_rank" ]; then
+        trend="⬆"
+      elif [ "$rank" -gt "$last_rank" ]; then
+        trend="⬇"
+      fi
+
+      echo "| $rank | [$repository](https://github.com/$repository) | $uniques | $views | $sources | $trend |" >> README.md
       rank=$((rank+1))
     done < repositories.2
   fi
