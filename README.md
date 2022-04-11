@@ -10,7 +10,7 @@ This project collects all data of incoming traffic to our organization
 | 3 | [javanile/yamlinc](https://github.com/javanile/yamlinc) | 43 | 76 | 10 |  |
 | 4 | [javanile/fixedsys-css](https://github.com/javanile/fixedsys-css) | 28 | 75 | 5 |  |
 | 5 | [javanile/novnc](https://github.com/javanile/novnc) | 26 | 51 | 3 |  |
-| 6 | [javanile/vtiger-i18n](https://github.com/javanile/vtiger-i18n) | 13 | 25 | 3 | ⬆ |
+| 6 | [javanile/vtiger-i18n](https://github.com/javanile/vtiger-i18n) | 13 | 25 | 3 | ⬆🟩 |
 | 7 | [javanile/twitter-button](https://github.com/javanile/twitter-button) | 11 | 26 | 4 | ⬆ |
 | 8 | [javanile/vtiger-client](https://github.com/javanile/vtiger-client) | 9 | 26 | 4 | ⬇ |
 | 9 | [javanile/mysql-import](https://github.com/javanile/mysql-import) | 7 | 24 | 2 |  |
