@@ -41,7 +41,7 @@ main () {
 
   echo "Sort traffic data"
   if [ -s repositories.1 ]; then
-    sort -t' ' -k2nr -k3nr -k4nr repositories.1 > repositories.2
+    sort -t' ' -k2nr -k3nr -k4nr -k1 repositories.1 > repositories.2
   fi
 
   if [ -s repositories.2 ]; then

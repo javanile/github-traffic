@@ -1,7 +1,7 @@
 # javanile (traffic)
 [![Traffic Update](https://github.com/javanile/github-traffic/actions/workflows/update.yml/badge.svg)](https://github.com/javanile/github-traffic/actions/workflows/update.yml)
 ![Last Update](https://img.shields.io/badge/Last%20Update-2022--04--11%2012%3A42%3A02%20UTC-blue)
-This project collects all data of incoming traffic to our organization  
+This project collects all data of incoming traffic to our organization
 
 | Rank | Repository | Uniques | Views | Sources | Trend |
 |:----:|------------|:-----:|:-------:|:-------:|:-----:|
