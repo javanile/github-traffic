@@ -12,7 +12,7 @@ This project collects all data of incoming traffic to our organization
 | 5 | [javanile/novnc](https://github.com/javanile/novnc) | 26 | 51 | 3 |  |
 | 6 | [javanile/vtiger-i18n](https://github.com/javanile/vtiger-i18n) | 13 | 25 | 3 | ⬆🟩 |
 | 7 | [javanile/twitter-button](https://github.com/javanile/twitter-button) | 11 | 26 | 4 | ⬆ |
-| 8 | [javanile/vtiger-client](https://github.com/javanile/vtiger-client) | 9 | 26 | 4 | ⬇ |
+| 8 | [javanile/vtiger-client](https://github.com/javanile/vtiger-client) | 9 | 26 | 4 | ⬇🟥 |
 | 9 | [javanile/mysql-import](https://github.com/javanile/mysql-import) | 7 | 24 | 2 |  |
 | 10 | [javanile/lcov.sh](https://github.com/javanile/lcov.sh) | 7 | 20 | 4 | ⬆ |
 | 11 | [javanile/todaynotes](https://github.com/javanile/todaynotes) | 7 | 15 | 2 | ⬆ |
