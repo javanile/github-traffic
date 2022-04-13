@@ -55,15 +55,9 @@ main () {
       views=$(echo "$entry" | cut -d' ' -f3)
       sources=$(echo "$entry" | cut -d' ' -f4)
       last_rank=$(grep "\[$repository\]" README.md.0 | head -1 | cut -d'|' -f2 | xargs)
-
-      trend=""
-      if [ "$rank" -lt "$last_rank" ]; then
-        trend="🟩 "
-      elif [ "$rank" -gt "$last_rank" ]; then
-        trend="🟥"
-      fi
-
-      echo "| $rank | [$repository](https://github.com/$repository) | $uniques | $views | $sources | $trend ($last_rank) |" >> README.md
+      [ "$rank" -gt "$last_rank" ] && trend="🟥" || trend=""
+      [ "$rank" -lt "$last_rank" ] && trend="🟩"
+      echo "| $rank | [$repository](https://github.com/$repository) | $uniques | $views | $sources | $trend |" >> README.md
       rank=$((rank+1))
     done < repositories.2
   fi
