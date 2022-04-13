@@ -11,7 +11,7 @@ This project collects all data of incoming traffic to our organization
 
 
 | Rank | Repository | Uniques | Views | Sources | Trend |
-|:----:|------------|:-----:|:-------:|:-------:|:-----:|
+| :--: | ---------- | :-----: | :---: | :-----: | :---: |
 | 1 | [javanile/vtiger](https://github.com/javanile/vtiger) | 88 | 250 | 7 |  |
 | 2 | [javanile/vtiger-demo](https://github.com/javanile/vtiger-demo) | 53 | 88 | 5 |  |
 | 3 | [javanile/yamlinc](https://github.com/javanile/yamlinc) | 44 | 70 | 9 |  |
