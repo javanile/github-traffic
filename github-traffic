@@ -58,12 +58,12 @@ main () {
 
       trend=""
       if [ "$rank" -lt "$last_rank" ]; then
-        trend="🟩"
+        trend="🟩 "
       elif [ "$rank" -gt "$last_rank" ]; then
         trend="🟥"
       fi
 
-      echo "| $rank | [$repository](https://github.com/$repository) | $uniques | $views | $sources | $trend |" >> README.md
+      echo "| $rank | [$repository](https://github.com/$repository) | $uniques | $views | $sources | $trend ($last_rank) |" >> README.md
       rank=$((rank+1))
     done < repositories.2
   fi
