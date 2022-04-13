@@ -54,7 +54,7 @@ main () {
       uniques=$(echo "$entry" | cut -d' ' -f2)
       views=$(echo "$entry" | cut -d' ' -f3)
       sources=$(echo "$entry" | cut -d' ' -f4)
-      last_rank=$(grep "$repository" README.md.0 | head -1 | cut -d'|' -f2 | xargs)
+      last_rank=$(grep "\[$repository\]" README.md.0 | head -1 | cut -d'|' -f2 | xargs)
 
       trend=""
       if [ "$rank" -lt "$last_rank" ]; then
