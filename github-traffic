@@ -62,6 +62,7 @@ main () {
     done < repositories.2
   fi
 
+  echo "" >> README.md
   echo "## License" >> README.md
   echo "The MIT License (MIT). Please see [License File](LICENSE) for more information." >> README.md
 }
