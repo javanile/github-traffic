@@ -17,7 +17,7 @@ jobs:
       - name: 'Checkout Traffic'
         uses: actions/checkout@v2
       - name: 'Update Traffic'
-        run: bash github-traffic
+        run: curl -s https://raw.githubusercontent.com/francescobianco/mush-packages/refs/heads/main/packages/github-traffic/bin/github-traffic | bash -
         env:
           CURL_USER: ${{ secrets.CURL_USER }}
       - name: 'Commit Changes'
