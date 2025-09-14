@@ -1,44 +1,44 @@
 # javanile (traffic)
 [![Traffic Update](https://github.com/javanile/github-traffic/actions/workflows/update.yml/badge.svg)](https://github.com/javanile/github-traffic/actions/workflows/update.yml)
-![Last Update](https://img.shields.io/badge/Last%20Update-2025--09--07%2008%3A24%3A54%20UTC-blue)  
+![Last Update](https://img.shields.io/badge/Last%20Update-2025--09--14%2008%3A25%3A11%20UTC-blue)  
 This file collects all information about the traffic to our repositories.
 
 | Rank | Repository | Uniques | Views | Sources | Stars | Trend |
 |:----:|------------|:-----:|:-------:|:-------:|:-----:|:-----:|
-| 1 | [javanile/php-imap2](https://github.com/javanile/php-imap2)  | 4 | 31 | 3 | 60 | 🟩 |
-| 2 | [javanile/vtiger](https://github.com/javanile/vtiger)  | 3 | 8 | 3 | 96 | 🟥 |
-| 3 | [javanile/crontab](https://github.com/javanile/crontab)  | 2 | 2 | 1 | 8 | 🟩 |
-| 4 | [javanile/bootstrap-wizard](https://github.com/javanile/bootstrap-wizard)  | 2 | 2 | 1 | 2 | 🟩 |
-| 5 | [javanile/php-glossary](https://github.com/javanile/php-glossary)  | 1 | 1 | 1 | 5 | 🟥 |
-| 6 | [javanile/vtiger-dev](https://github.com/javanile/vtiger-dev)  | 1 | 1 | 1 | 4 | 🟩 |
-| 7 | [javanile/yamlinc](https://github.com/javanile/yamlinc)  | 0 | 0 | 0 | 116 |  |
-| 8 | [javanile/mush](https://github.com/javanile/mush)  | 0 | 0 | 0 | 66 |  |
-| 9 | [javanile/moldable](https://github.com/javanile/moldable)  | 0 | 0 | 0 | 42 |  |
-| 10 | [javanile/vtiger-demo](https://github.com/javanile/vtiger-demo)  | 0 | 0 | 0 | 40 |  |
-| 11 | [javanile/fixedsys-css](https://github.com/javanile/fixedsys-css)  | 0 | 0 | 0 | 25 |  |
-| 12 | [javanile/lcov.sh](https://github.com/javanile/lcov.sh)  | 0 | 0 | 0 | 20 |  |
-| 13 | [javanile/dist.sh](https://github.com/javanile/dist.sh)  | 0 | 0 | 0 | 18 |  |
-| 14 | [javanile/inotifywait-polling](https://github.com/javanile/inotifywait-polling)  | 0 | 0 | 0 | 14 |  |
-| 15 | [javanile/vtiger-client](https://github.com/javanile/vtiger-client)  | 0 | 0 | 0 | 11 |  |
-| 16 | [javanile/springboard](https://github.com/javanile/springboard)  | 0 | 0 | 0 | 10 |  |
-| 17 | [javanile/github-traffic](https://github.com/javanile/github-traffic)  | 0 | 0 | 0 | 7 |  |
-| 18 | [javanile/masterplan](https://github.com/javanile/masterplan) [⚠️](https://github.com/javanile/masterplan "Problem with default branch") | 0 | 0 | 0 | 7 |  |
-| 19 | [javanile/novnc](https://github.com/javanile/novnc)  | 0 | 0 | 0 | 7 |  |
-| 20 | [javanile/twitter-button](https://github.com/javanile/twitter-button)  | 0 | 0 | 0 | 7 |  |
-| 21 | [javanile/granular](https://github.com/javanile/granular) [⚠️](https://github.com/javanile/granular "Problem with default branch") | 0 | 0 | 0 | 6 |  |
-| 22 | [javanile/hamper](https://github.com/javanile/hamper)  | 0 | 0 | 0 | 5 |  |
-| 23 | [javanile/webrequest](https://github.com/javanile/webrequest)  | 0 | 0 | 0 | 5 |  |
-| 24 | [javanile/binst.tk](https://github.com/javanile/binst.tk)  | 0 | 0 | 0 | 4 |  |
-| 25 | [javanile/centralio](https://github.com/javanile/centralio)  | 0 | 0 | 0 | 4 |  |
-| 26 | [javanile/docker-samba-ad-dc](https://github.com/javanile/docker-samba-ad-dc) [⚠️](https://github.com/javanile/docker-samba-ad-dc "Problem with default branch") | 0 | 0 | 0 | 4 |  |
-| 27 | [javanile/vtiger-cli](https://github.com/javanile/vtiger-cli)  | 0 | 0 | 0 | 4 |  |
-| 28 | [javanile/bpkg-ci](https://github.com/javanile/bpkg-ci)  | 0 | 0 | 0 | 3 |  |
-| 29 | [javanile/crisp](https://github.com/javanile/crisp)  | 0 | 0 | 0 | 3 |  |
-| 30 | [javanile/todaynotes](https://github.com/javanile/todaynotes)  | 0 | 0 | 0 | 3 |  |
-| 31 | [javanile/webrequest-ui](https://github.com/javanile/webrequest-ui)  | 0 | 0 | 0 | 3 |  |
-| 32 | [javanile/adminer](https://github.com/javanile/adminer)  | 0 | 0 | 0 | 2 |  |
-| 33 | [javanile/awesome-webrequest](https://github.com/javanile/awesome-webrequest)  | 0 | 0 | 0 | 2 |  |
-| 34 | [javanile/blog.lcov.sh](https://github.com/javanile/blog.lcov.sh)  | 0 | 0 | 0 | 2 |  |
+| 1 | [javanile/yamlinc](https://github.com/javanile/yamlinc)  | 0 | 0 | 0 | 116 |  |
+| 2 | [javanile/vtiger](https://github.com/javanile/vtiger)  | 0 | 0 | 0 | 96 |  |
+| 3 | [javanile/mush](https://github.com/javanile/mush)  | 0 | 0 | 0 | 66 |  |
+| 4 | [javanile/php-imap2](https://github.com/javanile/php-imap2)  | 0 | 0 | 0 | 60 |  |
+| 5 | [javanile/moldable](https://github.com/javanile/moldable)  | 0 | 0 | 0 | 41 |  |
+| 6 | [javanile/vtiger-demo](https://github.com/javanile/vtiger-demo)  | 0 | 0 | 0 | 40 |  |
+| 7 | [javanile/fixedsys-css](https://github.com/javanile/fixedsys-css)  | 0 | 0 | 0 | 25 |  |
+| 8 | [javanile/lcov.sh](https://github.com/javanile/lcov.sh)  | 0 | 0 | 0 | 20 |  |
+| 9 | [javanile/dist.sh](https://github.com/javanile/dist.sh)  | 0 | 0 | 0 | 18 |  |
+| 10 | [javanile/inotifywait-polling](https://github.com/javanile/inotifywait-polling)  | 0 | 0 | 0 | 14 |  |
+| 11 | [javanile/vtiger-client](https://github.com/javanile/vtiger-client)  | 0 | 0 | 0 | 11 |  |
+| 12 | [javanile/springboard](https://github.com/javanile/springboard)  | 0 | 0 | 0 | 10 |  |
+| 13 | [javanile/crontab](https://github.com/javanile/crontab)  | 0 | 0 | 0 | 8 |  |
+| 14 | [javanile/github-traffic](https://github.com/javanile/github-traffic)  | 0 | 0 | 0 | 7 |  |
+| 15 | [javanile/masterplan](https://github.com/javanile/masterplan) [⚠️](https://github.com/javanile/masterplan "Problem with default branch") | 0 | 0 | 0 | 7 |  |
+| 16 | [javanile/novnc](https://github.com/javanile/novnc)  | 0 | 0 | 0 | 7 |  |
+| 17 | [javanile/twitter-button](https://github.com/javanile/twitter-button)  | 0 | 0 | 0 | 7 |  |
+| 18 | [javanile/granular](https://github.com/javanile/granular) [⚠️](https://github.com/javanile/granular "Problem with default branch") | 0 | 0 | 0 | 6 |  |
+| 19 | [javanile/hamper](https://github.com/javanile/hamper)  | 0 | 0 | 0 | 5 |  |
+| 20 | [javanile/php-glossary](https://github.com/javanile/php-glossary)  | 0 | 0 | 0 | 5 |  |
+| 21 | [javanile/webrequest](https://github.com/javanile/webrequest)  | 0 | 0 | 0 | 5 |  |
+| 22 | [javanile/binst.tk](https://github.com/javanile/binst.tk)  | 0 | 0 | 0 | 4 |  |
+| 23 | [javanile/centralio](https://github.com/javanile/centralio)  | 0 | 0 | 0 | 4 |  |
+| 24 | [javanile/docker-samba-ad-dc](https://github.com/javanile/docker-samba-ad-dc) [⚠️](https://github.com/javanile/docker-samba-ad-dc "Problem with default branch") | 0 | 0 | 0 | 4 |  |
+| 25 | [javanile/vtiger-cli](https://github.com/javanile/vtiger-cli)  | 0 | 0 | 0 | 4 |  |
+| 26 | [javanile/vtiger-dev](https://github.com/javanile/vtiger-dev)  | 0 | 0 | 0 | 4 |  |
+| 27 | [javanile/bpkg-ci](https://github.com/javanile/bpkg-ci)  | 0 | 0 | 0 | 3 |  |
+| 28 | [javanile/crisp](https://github.com/javanile/crisp)  | 0 | 0 | 0 | 3 |  |
+| 29 | [javanile/todaynotes](https://github.com/javanile/todaynotes)  | 0 | 0 | 0 | 3 |  |
+| 30 | [javanile/webrequest-ui](https://github.com/javanile/webrequest-ui)  | 0 | 0 | 0 | 3 |  |
+| 31 | [javanile/adminer](https://github.com/javanile/adminer)  | 0 | 0 | 0 | 2 |  |
+| 32 | [javanile/awesome-webrequest](https://github.com/javanile/awesome-webrequest)  | 0 | 0 | 0 | 2 |  |
+| 33 | [javanile/blog.lcov.sh](https://github.com/javanile/blog.lcov.sh)  | 0 | 0 | 0 | 2 |  |
+| 34 | [javanile/bootstrap-wizard](https://github.com/javanile/bootstrap-wizard)  | 0 | 0 | 0 | 2 |  |
 | 35 | [javanile/dotenv](https://github.com/javanile/dotenv)  | 0 | 0 | 0 | 2 |  |
 | 36 | [javanile/eventy](https://github.com/javanile/eventy)  | 0 | 0 | 0 | 2 |  |
 | 37 | [javanile/fake-ssh-server](https://github.com/javanile/fake-ssh-server)  | 0 | 0 | 0 | 2 |  |
