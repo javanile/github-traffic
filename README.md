@@ -1,20 +1,20 @@
 # javanile (traffic)
 [![Traffic Update](https://github.com/javanile/github-traffic/actions/workflows/update.yml/badge.svg)](https://github.com/javanile/github-traffic/actions/workflows/update.yml)
-![Last Update](https://img.shields.io/badge/Last%20Update-2025--09--21%2008%3A24%3A35%20UTC-blue)  
+![Last Update](https://img.shields.io/badge/Last%20Update-2025--09--28%2008%3A25%3A41%20UTC-blue)  
 This file collects all information about the traffic to our repositories.
 
 | Rank | Repository | Uniques | Views | Sources | Stars | Trend |
 |:----:|------------|:-----:|:-------:|:-------:|:-----:|:-----:|
 | 1 | [javanile/yamlinc](https://github.com/javanile/yamlinc)  | 0 | 0 | 0 | 116 |  |
 | 2 | [javanile/vtiger](https://github.com/javanile/vtiger)  | 0 | 0 | 0 | 96 |  |
-| 3 | [javanile/mush](https://github.com/javanile/mush)  | 0 | 0 | 0 | 67 |  |
+| 3 | [javanile/mush](https://github.com/javanile/mush)  | 0 | 0 | 0 | 68 |  |
 | 4 | [javanile/php-imap2](https://github.com/javanile/php-imap2)  | 0 | 0 | 0 | 60 |  |
 | 5 | [javanile/moldable](https://github.com/javanile/moldable)  | 0 | 0 | 0 | 41 |  |
 | 6 | [javanile/vtiger-demo](https://github.com/javanile/vtiger-demo)  | 0 | 0 | 0 | 40 |  |
 | 7 | [javanile/fixedsys-css](https://github.com/javanile/fixedsys-css)  | 0 | 0 | 0 | 25 |  |
 | 8 | [javanile/lcov.sh](https://github.com/javanile/lcov.sh)  | 0 | 0 | 0 | 20 |  |
 | 9 | [javanile/dist.sh](https://github.com/javanile/dist.sh)  | 0 | 0 | 0 | 18 |  |
-| 10 | [javanile/inotifywait-polling](https://github.com/javanile/inotifywait-polling)  | 0 | 0 | 0 | 14 |  |
+| 10 | [javanile/inotifywait-polling](https://github.com/javanile/inotifywait-polling)  | 0 | 0 | 0 | 15 |  |
 | 11 | [javanile/vtiger-client](https://github.com/javanile/vtiger-client)  | 0 | 0 | 0 | 11 |  |
 | 12 | [javanile/springboard](https://github.com/javanile/springboard)  | 0 | 0 | 0 | 10 |  |
 | 13 | [javanile/crontab](https://github.com/javanile/crontab)  | 0 | 0 | 0 | 8 |  |
