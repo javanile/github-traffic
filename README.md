@@ -1,6 +1,6 @@
 # javanile (traffic)
 [![Traffic Update](https://github.com/javanile/github-traffic/actions/workflows/update.yml/badge.svg)](https://github.com/javanile/github-traffic/actions/workflows/update.yml)
-![Last Update](https://img.shields.io/badge/Last%20Update-2025--10--12%2008%3A26%3A09%20UTC-blue)  
+![Last Update](https://img.shields.io/badge/Last%20Update-2025--10--19%2008%3A25%3A57%20UTC-blue)  
 This file collects all information about the traffic to our repositories.
 
 | Rank | Repository | Uniques | Views | Sources | Stars | Trend |
@@ -17,7 +17,7 @@ This file collects all information about the traffic to our repositories.
 | 10 | [javanile/inotifywait-polling](https://github.com/javanile/inotifywait-polling)  | 0 | 0 | 0 | 15 |  |
 | 11 | [javanile/vtiger-client](https://github.com/javanile/vtiger-client)  | 0 | 0 | 0 | 11 |  |
 | 12 | [javanile/springboard](https://github.com/javanile/springboard)  | 0 | 0 | 0 | 10 |  |
-| 13 | [javanile/crontab](https://github.com/javanile/crontab)  | 0 | 0 | 0 | 8 |  |
+| 13 | [javanile/crontab](https://github.com/javanile/crontab)  | 0 | 0 | 0 | 9 |  |
 | 14 | [javanile/masterplan](https://github.com/javanile/masterplan) [⚠️](https://github.com/javanile/masterplan "Problem with default branch") | 0 | 0 | 0 | 7 |  |
 | 15 | [javanile/novnc](https://github.com/javanile/novnc)  | 0 | 0 | 0 | 7 |  |
 | 16 | [javanile/twitter-button](https://github.com/javanile/twitter-button)  | 0 | 0 | 0 | 7 |  |
