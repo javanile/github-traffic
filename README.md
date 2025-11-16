@@ -1,6 +1,6 @@
 # javanile (traffic)
 [![Traffic Update](https://github.com/javanile/github-traffic/actions/workflows/update.yml/badge.svg)](https://github.com/javanile/github-traffic/actions/workflows/update.yml)
-![Last Update](https://img.shields.io/badge/Last%20Update-2025--11--09%2008%3A26%3A18%20UTC-blue)  
+![Last Update](https://img.shields.io/badge/Last%20Update-2025--11--16%2008%3A28%3A37%20UTC-blue)  
 This file collects all information about the traffic to our repositories.
 
 | Rank | Repository | Uniques | Views | Sources | Stars | Trend |
@@ -8,7 +8,7 @@ This file collects all information about the traffic to our repositories.
 | 1 | [javanile/yamlinc](https://github.com/javanile/yamlinc)  | 0 | 0 | 0 | 116 |  |
 | 2 | [javanile/vtiger](https://github.com/javanile/vtiger)  | 0 | 0 | 0 | 96 |  |
 | 3 | [javanile/mush](https://github.com/javanile/mush)  | 0 | 0 | 0 | 69 |  |
-| 4 | [javanile/php-imap2](https://github.com/javanile/php-imap2)  | 0 | 0 | 0 | 61 |  |
+| 4 | [javanile/php-imap2](https://github.com/javanile/php-imap2)  | 0 | 0 | 0 | 62 |  |
 | 5 | [javanile/moldable](https://github.com/javanile/moldable)  | 0 | 0 | 0 | 42 |  |
 | 6 | [javanile/vtiger-demo](https://github.com/javanile/vtiger-demo)  | 0 | 0 | 0 | 40 |  |
 | 7 | [javanile/fixedsys-css](https://github.com/javanile/fixedsys-css)  | 0 | 0 | 0 | 26 |  |
