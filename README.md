@@ -1,12 +1,12 @@
 # javanile (traffic)
 [![Traffic Update](https://github.com/javanile/github-traffic/actions/workflows/update.yml/badge.svg)](https://github.com/javanile/github-traffic/actions/workflows/update.yml)
-![Last Update](https://img.shields.io/badge/Last%20Update-2025--11--16%2008%3A28%3A37%20UTC-blue)  
+![Last Update](https://img.shields.io/badge/Last%20Update-2025--11--23%2008%3A29%3A09%20UTC-blue)  
 This file collects all information about the traffic to our repositories.
 
 | Rank | Repository | Uniques | Views | Sources | Stars | Trend |
 |:----:|------------|:-----:|:-------:|:-------:|:-----:|:-----:|
 | 1 | [javanile/yamlinc](https://github.com/javanile/yamlinc)  | 0 | 0 | 0 | 116 |  |
-| 2 | [javanile/vtiger](https://github.com/javanile/vtiger)  | 0 | 0 | 0 | 96 |  |
+| 2 | [javanile/vtiger](https://github.com/javanile/vtiger)  | 0 | 0 | 0 | 95 |  |
 | 3 | [javanile/mush](https://github.com/javanile/mush)  | 0 | 0 | 0 | 69 |  |
 | 4 | [javanile/php-imap2](https://github.com/javanile/php-imap2)  | 0 | 0 | 0 | 62 |  |
 | 5 | [javanile/moldable](https://github.com/javanile/moldable)  | 0 | 0 | 0 | 42 |  |
@@ -18,10 +18,10 @@ This file collects all information about the traffic to our repositories.
 | 11 | [javanile/vtiger-client](https://github.com/javanile/vtiger-client)  | 0 | 0 | 0 | 11 |  |
 | 12 | [javanile/crontab](https://github.com/javanile/crontab)  | 0 | 0 | 0 | 10 |  |
 | 13 | [javanile/springboard](https://github.com/javanile/springboard)  | 0 | 0 | 0 | 10 |  |
-| 14 | [javanile/masterplan](https://github.com/javanile/masterplan) [⚠️](https://github.com/javanile/masterplan "Problem with default branch") | 0 | 0 | 0 | 7 |  |
-| 15 | [javanile/novnc](https://github.com/javanile/novnc)  | 0 | 0 | 0 | 7 |  |
-| 16 | [javanile/twitter-button](https://github.com/javanile/twitter-button)  | 0 | 0 | 0 | 7 |  |
-| 17 | [javanile/github-traffic](https://github.com/javanile/github-traffic)  | 0 | 0 | 0 | 6 |  |
+| 14 | [javanile/github-traffic](https://github.com/javanile/github-traffic)  | 0 | 0 | 0 | 7 |  |
+| 15 | [javanile/masterplan](https://github.com/javanile/masterplan) [⚠️](https://github.com/javanile/masterplan "Problem with default branch") | 0 | 0 | 0 | 7 |  |
+| 16 | [javanile/novnc](https://github.com/javanile/novnc)  | 0 | 0 | 0 | 7 |  |
+| 17 | [javanile/twitter-button](https://github.com/javanile/twitter-button)  | 0 | 0 | 0 | 7 |  |
 | 18 | [javanile/granular](https://github.com/javanile/granular) [⚠️](https://github.com/javanile/granular "Problem with default branch") | 0 | 0 | 0 | 6 |  |
 | 19 | [javanile/hamper](https://github.com/javanile/hamper)  | 0 | 0 | 0 | 5 |  |
 | 20 | [javanile/php-glossary](https://github.com/javanile/php-glossary)  | 0 | 0 | 0 | 5 |  |
