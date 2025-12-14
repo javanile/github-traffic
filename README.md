@@ -1,6 +1,6 @@
 # javanile (traffic)
 [![Traffic Update](https://github.com/javanile/github-traffic/actions/workflows/update.yml/badge.svg)](https://github.com/javanile/github-traffic/actions/workflows/update.yml)
-![Last Update](https://img.shields.io/badge/Last%20Update-2025--12--07%2008%3A29%3A17%20UTC-blue)  
+![Last Update](https://img.shields.io/badge/Last%20Update-2025--12--14%2008%3A31%3A02%20UTC-blue)  
 This file collects all information about the traffic to our repositories.
 
 | Rank | Repository | Uniques | Views | Sources | Stars | Trend |
@@ -15,8 +15,8 @@ This file collects all information about the traffic to our repositories.
 | 8 | [javanile/lcov.sh](https://github.com/javanile/lcov.sh)  | 0 | 0 | 0 | 21 |  |
 | 9 | [javanile/dist.sh](https://github.com/javanile/dist.sh)  | 0 | 0 | 0 | 18 |  |
 | 10 | [javanile/inotifywait-polling](https://github.com/javanile/inotifywait-polling)  | 0 | 0 | 0 | 15 |  |
-| 11 | [javanile/vtiger-client](https://github.com/javanile/vtiger-client)  | 0 | 0 | 0 | 11 |  |
-| 12 | [javanile/crontab](https://github.com/javanile/crontab)  | 0 | 0 | 0 | 10 |  |
+| 11 | [javanile/crontab](https://github.com/javanile/crontab)  | 0 | 0 | 0 | 12 |  |
+| 12 | [javanile/vtiger-client](https://github.com/javanile/vtiger-client)  | 0 | 0 | 0 | 11 |  |
 | 13 | [javanile/springboard](https://github.com/javanile/springboard)  | 0 | 0 | 0 | 10 |  |
 | 14 | [javanile/github-traffic](https://github.com/javanile/github-traffic)  | 0 | 0 | 0 | 7 |  |
 | 15 | [javanile/masterplan](https://github.com/javanile/masterplan) [⚠️](https://github.com/javanile/masterplan "Problem with default branch") | 0 | 0 | 0 | 7 |  |
